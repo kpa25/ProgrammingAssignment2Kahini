@@ -3,7 +3,7 @@ cacheSolve <- function(x, ...) {
   inv = x$getinv()
   
   if (!is.null(inv)){
-    message("getting cached data")
+    message("Recieving Cache Data")
     return(inv)
   }
   
